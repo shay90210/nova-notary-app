@@ -7,26 +7,11 @@ import {
     Input,
 } from 'reactstrap';
 
-import emailjs from '@emailjs/browser';
-
-export const ContactForm = () => {
-
-    const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-
-        emailjs.sendForm('service_1um3byl', 'template_enbqqht', 'HsQ73zypgOlmQBhhb')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-
-        e.currentTarget.reset();
-    }
+const ContactForm = () => {
 
     return (
         <div>
-            <Form onSubmit={sendEmail}>
+            <Form>
                 <FormGroup row>
                     <Label for='firstName' sm={2}>
                         First Name
@@ -115,3 +100,5 @@ export const ContactForm = () => {
         </div>
     )
 }
+
+export default ContactForm
