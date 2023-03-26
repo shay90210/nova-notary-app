@@ -10,7 +10,7 @@ import {
 
 import { useState } from 'react';
 
-const NavigationBar = ({ ...args }) => {
+const NavigationBar = () => {
     const [collapsed, setCollapsed] = useState(false);
 
     const toggleNavbar = () => setCollapsed(!collapsed);
