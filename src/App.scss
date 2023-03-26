@@ -17,6 +17,56 @@ $--size-p2: 16px;
 $--fw-bold: 600;
 $--fw-bolder: 900;
 
+// NAVIGATION BAR
+.main-nav {
+    background-color: white;
+
+    .nav-link {
+        text-decoration: none;
+        color: $--clr-light;
+        cursor: pointer;
+        margin: 50px;
+        background: none;
+        border: none;
+        font-family: 'cabin';
+        color: #272343;
+    }
+
+    .nav-link:hover {
+        background: none;
+    }
+}
+
+.brand-logo {
+    width: 125px;
+    width: 125px;
+    border-radius: 50%;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+    .social-icons {
+        color: #4F1963;
+        list-style-type: none;
+        font-size: 25px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .social-icons:hover {
+        color: yellow;
+    }
+
+    h3 {
+        color: #4F1963;
+        font-family: 'cabin';
+        font-size: $--size-p1;
+    }
+}
+
 // PAGES -------------------------------------------
 
 // Homepage
@@ -65,4 +115,15 @@ $--fw-bolder: 900;
 .contact-form {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+// MEDIA QUERIES -----------------------------------
+
+//Navigation Bar
+@media screen and (max-width: 767px) {
+    .main-nav {
+        .nav-link {
+            margin: 0;
+        }
+    }
 }

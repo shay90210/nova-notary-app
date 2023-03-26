@@ -1,3 +1,47 @@
+.main-nav {
+  background-color: white;
+}
+.main-nav .nav-link {
+  text-decoration: none;
+  color: #ececec;
+  cursor: pointer;
+  margin: 50px;
+  background: none;
+  border: none;
+  font-family: "cabin";
+  color: #272343;
+}
+.main-nav .nav-link:hover {
+  background: none;
+}
+
+.brand-logo {
+  width: 125px;
+  width: 125px;
+  border-radius: 50%;
+}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+footer .social-icons {
+  color: #4F1963;
+  list-style-type: none;
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+footer .social-icons:hover {
+  color: yellow;
+}
+footer h3 {
+  color: #4F1963;
+  font-family: "cabin";
+  font-size: 22px;
+}
+
 .main-title {
   padding-top: 200px;
   text-align: center;
@@ -42,4 +86,10 @@
 .contact-form {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-nav .nav-link {
+    margin: 0;
+  }
 }/*# sourceMappingURL=App.css.map */
