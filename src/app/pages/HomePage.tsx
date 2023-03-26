@@ -7,7 +7,7 @@ export const HomePage = () => {
                 style={{
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
-                    backgroundImage: `url(/pinkbackground.jpg)`
+                    backgroundImage: '/imgs/pinkbackground.jpg'
                 }}
             >
                 <h1 className='main-title'>Nova Notary</h1>
