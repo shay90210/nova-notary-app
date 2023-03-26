@@ -32,7 +32,7 @@ export const HomePage = () => {
                 <Row>
                     <Col>
                         <img
-                            src='/imgs/notary-signing-agent.png'
+                            src='/imgs/MicrosoftTeams-image (12).png'
                             alt='certification stamp'
                             width='300px'
                             className='approval-star'
@@ -44,7 +44,7 @@ export const HomePage = () => {
                     </Col>
                     <Col>
                         <img
-                            src='/imgs/MicrosoftTeams-image (12).png'
+                            src='/imgs/pngegg.png'
                             alt='gold certification star indicating certified approval'
                             width='300px'
                             className='approval-star'
