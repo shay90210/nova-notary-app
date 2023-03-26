@@ -1,9 +1,17 @@
+//PAGES
+import { HomePage } from './app/pages/HomePage';
+
+//IMPORTS FROM DEPENDENCIES
+import { Routes, Route } from 'react-router-dom';
+
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <div>HELLO WORLD!</div>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+      </Routes>
     </div>
   );
 }
