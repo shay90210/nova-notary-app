@@ -12,6 +12,11 @@ import '@fortawesome/free-brands-svg-icons';
 import 'bootstrap-social/bootstrap-social.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import 'typeface-open-sans';
+import 'typeface-roboto-condensed';
+import 'typeface-cabin';
+import 'typeface-recursive';
+
 import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
