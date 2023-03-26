@@ -21,7 +21,7 @@ const Footer = () => {
                     <Row>
                         <Col>
                             <p style={{ color: '#4F1963' }}
-                            >&copy; 2022, Nova Notary Powered by The Glam Techie</p>
+                            >&copy; 2022, Nova Notary Powered by theGlamTechie</p>
                         </Col>
                     </Row>
                 </Container>
