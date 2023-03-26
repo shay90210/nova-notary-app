@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# Nova Notary Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src='public\imgs\NovaNotary-Logo.png' width='400px' alt='brand logo' />
 
-## Available Scripts
+## PROJECT DESCRIPTION
+Landing page created for a small business certified in notary services. The landing page only includes a home page and a contact page. 
 
-In the project directory, you can run:
+## FEATURES
+- Contact Form that sends submitted values to business email
 
-### `npm start`
+## INSTALLATION INSTRUCTIONS
+I installed the project with the following library and programming language:
+- npx create-react-app APP NAME
+- npm install -g typescript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Please install the following dependencies below to work the project:
+- npm install bootstrap@5.1.3 bootstrap-social@5.1.1 font-awesome@4.7.0 react-router-dom@6.2.1 react-spring@9.4.5-beta.1 reactstrap@9.0.1
+- npm install sass
+- npm i --save @fortawesome/fontawesome-svg-core
+- npm install --save @fortawesome/free-solid-svg-icons
+- npm install --save @fortawesome/react-fontawesome
+- npm install –save @fortawesome/free-brands-svg-icons
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## USAGE INSTRUCTIONS
+- The project can be simply ran using npm start. However, this project has been deployed to netlify. Please check out the functionality of the project there.
