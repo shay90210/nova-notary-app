@@ -5,9 +5,7 @@ export const HomePage = () => {
         <div>
             <section
                 style={{
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundImage: '/imgs/pinkbackground.jpg'
+                    backgroundColor: 'lavender'
                 }}
             >
                 <h1 className='main-title'>Nova Notary</h1>
