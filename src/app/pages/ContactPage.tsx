@@ -2,7 +2,7 @@ import ContactForm from '../components/ContactForm';
 
 import { Container, Col, Row } from 'reactstrap';
 
-const ContactPage = () => {
+export const ContactPage = () => {
     return (
         <div>
             <h1
@@ -26,5 +26,3 @@ const ContactPage = () => {
         </div>
     )
 }
-
-export default ContactPage; 

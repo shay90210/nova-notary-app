@@ -1,6 +1,6 @@
 //PAGES
 import { HomePage } from './app/pages/HomePage';
-import ContactPage from './app/pages/ContactPage';
+import { ContactPage } from './app/pages/ContactPage';
 
 //COMPONENTS
 import NavigationBar from './app/components/NavigationBar';
