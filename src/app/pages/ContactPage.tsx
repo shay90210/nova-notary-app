@@ -1,5 +1,3 @@
-import ContactForm from '../components/ContactForm';
-
 import { Container, Col, Row } from 'reactstrap';
 
 export const ContactPage = () => {
@@ -19,7 +17,7 @@ export const ContactPage = () => {
             <Container className='contact-form'>
                 <Row>
                     <Col>
-                        <ContactForm />
+                        This is a contact form.
                     </Col>
                 </Row>
             </Container>
