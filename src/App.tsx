@@ -1,5 +1,6 @@
 //PAGES
 import { HomePage } from './app/pages/HomePage';
+import ContactPage from './app/pages/ContactPage';
 
 //COMPONENTS
 import NavigationBar from './app/components/NavigationBar';
@@ -16,6 +17,7 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path='/' element={<HomePage />} />
+        <Route path='contact' element={<ContactPage />} />
       </Routes>
       <Footer />
     </div>
